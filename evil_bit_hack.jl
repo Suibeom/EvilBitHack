@@ -63,7 +63,7 @@ function fast_inv_sq(x::Float32)
 end
 
 # ╔═╡ 0d2e4834-0322-47e4-b464-4a0bd72f28a0
-#Not bad! Depending on the circumstances, I'd wonder if this would be good enough on its own. Gamers have certainly tolerated worst imprecision-based visual artifacts...
+#Not bad! Depending on the circumstances, I'd wonder if this would be good enough on its own. Gamers have certainly tolerated worse imprecision-based visual artifacts...
 
 # ╔═╡ dc696731-29cf-4687-95ce-408a9b296fd1
 begin
