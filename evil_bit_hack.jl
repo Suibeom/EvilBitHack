@@ -24,7 +24,7 @@ using Plots
 #The title display the average error between the two over [0,1]
 
 # ╔═╡ 4b279d65-7cbf-4ea0-95f6-5f991a8902a5
-@bind μ HTML("<input type='range' value='0.0' max='0.1' step='0.0001'")
+@bind μ HTML("<input type='range' value='0.0' max='0.1' step='0.00001'")
 
 # ╔═╡ daea3956-d6ac-4bc8-9607-bdbfbc666823
 begin
@@ -36,7 +36,7 @@ begin
 end
 
 # ╔═╡ 0da371ad-fd8a-4c82-adee-33219cc6c290
-#Once we've picked μ, we can put together the 'magic number' we need to line up the bitwise representations of y and 1/√(y)
+#Once we've picked μ, we can put together the 'magic number' we need to line up the bitwise representations of y and 1/√(y). This was precomputed and baked in to the C code.
 
 # ╔═╡ 7ca61f82-43c5-4c23-8842-bbfdee65683e
 magic_number = round(Int32, (3/2 * 2^23 * ( 127 - μ)))
