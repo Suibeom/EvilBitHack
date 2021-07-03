@@ -17,7 +17,7 @@ end
 using Plots
 
 # ╔═╡ 5da37e73-963d-4a3d-86b0-68c0369f079d
-#This notebook is intended to be an interactive companion to Demean's video on the fast inverse square root hack https://www.youtube.com/watch?v=p8u_k2LIZyo
+#This notebook is intended to be an interactive companion to Nemean's video on the fast inverse square root hack https://www.youtube.com/watch?v=p8u_k2LIZyo
 
 # ╔═╡ adc69f34-e2fb-4c61-a736-2775551e5b75
 #We're going to set up a particular trick first; log(x + 1) ~ x + μ
